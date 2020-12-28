@@ -3,7 +3,7 @@ Personal computer vision and deep learning notebooks:
 
 - **Depth map** (work in progress) - calculate a depth map using multiple cameras in real time.
 - **Webcam painting** - excercise program which makes you able to paint using colorful highlighters in the air:
-- **Point stereo vision** (work in progress) - calculating the distance between two cameras and diode light.
+- **Point stereo vision** (abandoned) - calculating the distance between two cameras and diode light.
 - **OpenCV stuff** - miscellaneous notebooks to play with OpenCV.
     - **Getting started** - image/video input/output, drawing functions, basic operation on images, arithmetic operation on images.
     - **Image processing**, **Color detection** - real-time color detection using HSV ranges.
