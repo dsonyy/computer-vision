@@ -10,3 +10,6 @@ build
 *.obj
 *.a
 *.so
+*.user
+x64
+x86
