@@ -1,0 +1,12 @@
+.vs
+.vscode
+debug
+release
+build
+*.exe
+*.dll
+*.lib
+*.o
+*.obj
+*.a
+*.so
