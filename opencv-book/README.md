@@ -20,7 +20,7 @@ Personal notes, exercises and snippets.
 
 **TASKS:**
 
-- [ ] Read data from camera, perform some transformations and save to a file.
+- [x] Read data from camera, perform some transformations and save to a file.
 
 ## Chapter 3
 
@@ -47,7 +47,10 @@ Personal notes, exercises and snippets.
 
 ## Chapter 5
 
-- [ ] 
+**TASKS:**
+
+- [ ] Drawing shapes.
+- [ ] Fancy Pyramid.
 
 ## Chapter 6
 
