@@ -26,8 +26,8 @@ Personal notes, exercises and snippets.
 
 **TASKS:**
 
-- [ ] Core functions in action.
-- [ ] Multiplying different matrices data types.
+- [x] Core functions in action.
+- [x] Multiplying different matrices data types.
 
 ## Chapter 4
 

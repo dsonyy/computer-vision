@@ -13,5 +13,11 @@ int save_video();
 int read_save_camera();
 
 
+// Chapter 3
+int chapter3();
+
+// Chapter 4
+
+
 // Specify function which will be run by main().
 #define RUN_FN read_save_camera
