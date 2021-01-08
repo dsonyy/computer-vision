@@ -1,6 +1,6 @@
 # OpenCV book
 
-![book.jpg](D:\repo\computer-vision\opencv-book\res\book.jpg)
+![book.jpg](res/book.jpg)
 
 Personal notes, exercises and snippets.
 
