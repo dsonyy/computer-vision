@@ -2,12 +2,16 @@
 #include <functional>
 #pragma once
 
-// CH 1
+// Chapter 1
 
-// CH 2
+// Chapter 2
 int load_image();
 int load_video();
 int load_video_slider();
+int read_camera();
+int save_video();
+int read_save_camera();
+
 
 // Specify function which will be run by main().
-#define RUN_FN load_video_slider
+#define RUN_FN read_save_camera
