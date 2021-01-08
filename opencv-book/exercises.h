@@ -17,7 +17,8 @@ int read_save_camera();
 int chapter3();
 
 // Chapter 4
-
+int numerical_keyboard();
+int summed_area_table();
 
 // Specify function which will be run by main().
-#define RUN_FN read_save_camera
+#define RUN_FN numerical_keyboard

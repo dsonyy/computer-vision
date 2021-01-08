@@ -18,7 +18,13 @@
     <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\chapter-2.cpp">
+    <ClCompile Include="..\chapter2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chapter3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chapter4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -31,18 +31,9 @@ Personal notes, exercises and snippets.
 
 ## Chapter 4
 
-- [ ]  `cv::Mat`
-- [ ] Access to individual elements.
-  - [ ] `::at<>`
-  - [ ] `::ptr<>`
-- [ ] Access to multiple elements at once.
-- [ ] `cv::saturation_cast`
-- [ ] Access to spare matrix elements.
-- [ ] Understanding templates.
-
 **TASKS:**
 
-- [ ] Numerical keyboard
+- [x] Numerical keyboard
 - [ ] Playing with [*summed-area table* (aka *integral image*)](https://en.wikipedia.org/wiki/Summed-area_table)
 
 ## Chapter 5
