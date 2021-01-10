@@ -14,6 +14,7 @@
     <ClCompile Include="..\chapter2.cpp" />
     <ClCompile Include="..\chapter3.cpp" />
     <ClCompile Include="..\chapter4.cpp" />
+    <ClCompile Include="..\chapter5.cpp" />
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
