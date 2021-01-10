@@ -1,5 +1,8 @@
 # Computer Vision
 Personal computer vision and deep learning notebooks:
+- **OpenCV book** - snippets and exercises from this book:
+
+![book](./opencv-book/res/book.jpg)
 
 - **Depth map** (work in progress) - calculate a depth map using multiple cameras in real time.
 - **Webcam painting** - excercise program which makes you able to paint using colorful highlighters in the air:
@@ -10,5 +13,5 @@ Personal computer vision and deep learning notebooks:
     - **HSV Palette** - simple and useful tool for picking HSV colors.
     - **Haar faces classification**
     - **Canny edge detection**
-- **Thumbs up/down** (work in progress) - reimplementation of the image classification task from [Getting Started with AI on Jetson Nano](https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about) to be cross-platform and work with TensorFlow.
+- **Thumbs up/down** (abandoned) - reimplementation of the image classification task from [Getting Started with AI on Jetson Nano](https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about) to be cross-platform and work with TensorFlow.
 - **Camera test** - displaying image from cameras inside Jupyter notebook in real time.
