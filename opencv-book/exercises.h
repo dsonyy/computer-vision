@@ -21,4 +21,4 @@ int numerical_keyboard();
 int summed_area_table();
 
 // Specify function which will be run by main().
-#define RUN_FN numerical_keyboard
+#define RUN_FN summed_area_table

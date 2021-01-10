@@ -4,14 +4,14 @@ void draw_number(cv::Mat_<cv::Vec3b>& img, const cv::Point2i& p, char ch, const 
 	std::array<bool, 7> sgmts;
 	/*
 	   ===3===
-	  |       |
-	  1       6
       |       |
+	  1       6
+	  |       |
 	   ===4===
 	  |       |
 	  2       7
-      |       |
-	   ===5===
+	  |       |
+       ===5===
 	*/
 	//                            1  2  3  4  5  6  7
 	if (ch == '0')      sgmts = { 1, 1, 1, 0, 1, 1, 1 };
@@ -37,7 +37,8 @@ void draw_number(cv::Mat_<cv::Vec3b>& img, const cv::Point2i& p, char ch, const 
 
 int numerical_keyboard() {
 	auto sz = cv::Size(500, 500);
-	cv::Mat_<cv::Vec3b> img = cv::Mat_<cv::Vec3b>::zeros(sz);
+
+	cv::Mat_<cv::Vec3b> img(sz, cv::Vec3b(0, 0, 0));
 	auto chsz = cv::Size(10, 20);
 	auto pos = cv::Point();
 	auto c = cv::Scalar();
@@ -49,7 +50,7 @@ int numerical_keyboard() {
 		cv::imshow("numkey", img);
 		cur = ~cur;
 		
-		cv::randu(c, cv::Scalar(100), cv::Scalar(256));
+		cv::randu(c, 100, 256);
 		auto ch = cv::waitKey(0);
 		if (ch == 'q') break;
 		else if (ch >= '0' && ch <= '9') {
@@ -68,6 +69,38 @@ int numerical_keyboard() {
 }
 
 int summed_area_table() {
-	cv::Size sz(500, 500);
-	cv::Mat mat(sz, CV_32FC1);
+	cv::namedWindow("Data", cv::WINDOW_AUTOSIZE);
+	cv::namedWindow("Summed Area", cv::WINDOW_AUTOSIZE);
+	while (true) {
+		cv::Size sz(20, 21);
+		cv::Mat_<uint8_t> mat(sz);
+		cv::randu(mat, 0, 256);
+		mat[0][0] = 0;
+		mat[0][1] = 1;
+
+		cv::Mat_<float_t> sum(sz, 0);
+
+		for (int i = 1; i < sz.width; i++) {
+			sum[0][i] = float(mat[0][i]);
+		}
+		for (int i = 0; i < sz.width; i++) {
+			for (int j = 1; j < sz.height; j++) {
+				sum[j][i] = sum[j - 1][i] + mat[j][i];
+			}
+		}
+
+		std::cout << std::endl;
+		for (int j = 0; j < sz.height; j++) {
+			for (int i = 0; i < sz.width; i++) {
+				std::cout << sum[j][i] << "\t";
+			}
+			std::cout << std::endl;
+		}
+
+		cv::imshow("Data", mat);
+
+		char ch = cv::waitKey(0);
+		if (ch == 'q') break;
+	}
+	return 0;
 }

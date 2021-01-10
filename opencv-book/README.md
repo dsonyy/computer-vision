@@ -34,7 +34,7 @@ Personal notes, exercises and snippets.
 **TASKS:**
 
 - [x] Numerical keyboard
-- [ ] Playing with [*summed-area table* (aka *integral image*)](https://en.wikipedia.org/wiki/Summed-area_table)
+- [x] Playing with [*summed-area table* (aka *integral image*)](https://en.wikipedia.org/wiki/Summed-area_table)
 
 ## Chapter 5
 
