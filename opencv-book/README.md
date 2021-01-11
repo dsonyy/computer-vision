@@ -38,10 +38,10 @@ Personal notes, exercises and snippets.
 
 ## Chapter 5
 
-**TASKS:**
-
-- [ ] Drawing shapes.
-- [ ] Fancy Pyramid.
-
 ## Chapter 6
 
+**TASKS:**
+
+- [x] Drawing shapes.
+- [x] Importing grayscale image and add colourful text.
+- [x] Render video and display FPS counter.

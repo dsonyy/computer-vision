@@ -32,7 +32,7 @@ int load_video() {
 		if (frame.empty()) break;
 		cv::imshow("example", frame);
 
-		char ch = cv::waitKey(cap.get(cv::CAP_PROP_FPS));
+		char ch = cv::waitKey(1000 / cap.get(cv::CAP_PROP_FPS));
 		if (ch == 'q') break;
 	}
 	cv::destroyWindow("example");
@@ -62,7 +62,7 @@ int load_video_slider() {
 		int current_pos = int(cap.get(cv::CAP_PROP_POS_FRAMES));
 		cv::setTrackbarPos("frame", "example", current_pos);
 		cv::imshow("example", frame);
-		char ch = cv::waitKey(cap.get(cv::CAP_PROP_FPS));
+		char ch = cv::waitKey(1000 / cap.get(cv::CAP_PROP_FPS));
 		if (ch == 'q') break;
 	}
 	cv::destroyWindow("example");
@@ -116,7 +116,7 @@ int save_video() {
 		cv::imshow("example", frame);
 		writer << frame;
 
-		char ch = cv::waitKey(cap.get(cv::CAP_PROP_FPS));
+		char ch = cv::waitKey(1000 / cap.get(cv::CAP_PROP_FPS));
 		if (ch == 'q') break;
 	}
 	cv::destroyWindow("example");

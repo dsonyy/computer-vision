@@ -1,5 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <functional>
+#include <iostream>
+#include <chrono>
 #pragma once
 
 // Chapter 1
@@ -12,7 +14,6 @@ int read_camera();
 int save_video();
 int read_save_camera();
 
-
 // Chapter 3
 int chapter3();
 
@@ -20,5 +21,13 @@ int chapter3();
 int numerical_keyboard();
 int summed_area_table();
 
+// Chapter 5
+
+// Chapter 6
+int shapes();
+int grayscale_with_text();
+int fps();
+
+
 // Specify function which will be run by main().
-#define RUN_FN summed_area_table
+#define RUN_FN fps
