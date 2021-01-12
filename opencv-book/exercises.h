@@ -28,6 +28,10 @@ int shapes();
 int grayscale_with_text();
 int fps();
 
+// Chapter 7
+
+// Chapter 8
+
 
 // Specify function which will be run by main().
 #define RUN_FN fps
