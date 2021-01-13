@@ -31,7 +31,9 @@ int fps();
 // Chapter 7
 
 // Chapter 8
-
+int grab_retrieve_camera();
+int mouse_click();
+int mouse_select();
 
 // Specify function which will be run by main().
-#define RUN_FN fps
+#define RUN_FN mouse_select

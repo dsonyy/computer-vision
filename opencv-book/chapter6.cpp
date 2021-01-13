@@ -143,6 +143,5 @@ int fps() {
 		if (ch == 'q') break;
 	}
 
-
 	return 0;
 }
