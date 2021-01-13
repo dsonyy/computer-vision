@@ -35,5 +35,9 @@ int grab_retrieve_camera();
 int mouse_click();
 int mouse_select();
 
+// Chapter 9
+int window_move_spam();
+int window_overlay(); // requires Qt
+
 // Specify function which will be run by main().
-#define RUN_FN mouse_select
+#define RUN_FN window_overlay
